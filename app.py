@@ -4,6 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
+
 # Load the trained Random Forest model
 model_path = 'heartdiseasemodelbest111.joblib'
 

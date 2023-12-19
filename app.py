@@ -7,6 +7,7 @@ app = Flask(__name__)
 # Load the trained Random Forest model
 model_path = 'heartdiseasemodelbest111.joblib'
 
+
 with open(model_path, 'rb') as file:
     model = joblib.load(file)
 @app.route('/')
